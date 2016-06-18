@@ -31,7 +31,7 @@ defmodule BarrelExLogger.Mixfile do
   defp package do
     [
      name: :postgrex,
-     files: ["lib", "priv", "mix.exs", "README*", "readme*", "LICENSE*", "license*"],
+     files: ["lib", "priv", "mix.exs", "README*", "readme*", "LICENSE*", "license*", "NOTICE"],
      maintainers: ["Sushruth Sivaramakrishnan"],
      licenses: ["Apache 2.0"],
      links: %{"GitHub" => "https://github.com/barrel-db/barrel_ex_logger"}]
